@@ -59,8 +59,8 @@ def lock_pdf():
                 writer.write(f)
                 messagebox.showinfo("Info", f"The pdf file has been encrypted successfully in the following path: {os.path.abspath(pdf_name)}"+".pdf")
 
-        except EXCEPTION as error:
-            print(error)
+        except (FileExistsError, FIleNotFoundError) as error:
+            messagebox.showerror("Error", error)
 
 
 frame = Frame(window, width=900, height=115, background="cyan")
