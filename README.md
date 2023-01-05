@@ -8,4 +8,5 @@ Una interfaz gráfica sencilla el cual tiene como propósito cifrar archivos pdf
 1. `future`
 1. `PyPDF2`
 
+
 ![](https://github.com/pradelson95/PDF-LOCKER/blob/main/Captura%20de%20pantalla%202023-01-05%20101917.png)
